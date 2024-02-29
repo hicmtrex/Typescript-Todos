@@ -2,7 +2,7 @@ repo_name: hicmtrex/Typescript-Todos
 report_id: 9d166eb8eb07bfdaeb553bcf4efb8e00
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:17:53+00:00'
+timestamp: '2024-02-29T19:09:07+00:00'
 requested_by: invalid-email-address
 provider: github
 branch: main
@@ -91,6 +91,13 @@ tools:
   last_updated_by: Firstname Lastname
   last_updated_on: 2022-11-29 13:36:54.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 3.2.8
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
